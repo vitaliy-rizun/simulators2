@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  /*order: -1;*/
+  order: 0;
+}
