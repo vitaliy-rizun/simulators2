@@ -1,0 +1,17 @@
+.room {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.rug.rudolf {
+  align-self: flex-start;
+}
+
+.rug.keks {
+  align-self: flex-end;
+}
+
+.rug.simeon {
+  align-self: center;
+}
