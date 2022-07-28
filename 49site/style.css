@@ -1,0 +1,23 @@
+.room {
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+}
+
+.rug {
+  min-height: 20px;
+  /*width: 80px;*/
+  width: 120px;
+}
+
+.room-1 {
+  /*align-content: stretch;*/
+  align-content: flex-start;
+  align-items: flex-end;
+}
+
+.room-2 {
+  /*align-content: stretch;*/
+  align-content: flex-end;
+  align-items: flex-start;
+}
