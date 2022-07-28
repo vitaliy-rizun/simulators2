@@ -1,0 +1,186 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 450px;
+  height: 335px;
+
+  font-size: 10px;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header,
+.promo,
+.footer {
+  background-color: #34495e;
+  min-height: 35px;
+}
+
+.menu,
+.site .block {
+  background-color: #3498db;
+  min-height: 35px;
+}
+
+.header .block,
+.promo .block {
+  background-color: #c0392b;
+  min-height: 25px;
+}
+
+.block {
+  padding: 5px;
+}
+
+.header,
+.promo,
+.site {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.promo .block {
+  float: left;
+  width: 160px;
+  min-height: 50px;
+  margin-right: 10px;
+}
+
+.promo .block:last-child {
+  margin-right: 0px;
+}
+
+.site .block {
+  float: left;
+  width: 60px;
+  min-height: 100px;
+}
+
+.site .main {
+  width: 180px;
+  margin: 0 10px;
+}
+
+/*
+  Используемые цвета:
+  #34495e – мокрый асфальт
+  #c0392b – красный
+  #3498db – синий
+*/
+
+/* Предыдущий код
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 450px;
+  height: 335px;
+
+  font-size: 10px;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+.bg-red {
+  background-color: #c0392b;
+  }
+
+.bg-blue {
+  background-color: #3498db;
+  }
+
+.bg-darkblue {
+  background-color: #34495e;
+  }
+  
+.header,
+.container-promo,
+.container-white {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  
+.bg-red,
+.left,
+.main,
+.dostal,
+.right,
+.munushka {
+  min-height: 25px;
+  padding: 5px;
+  /*margin: 5px;* /
+  }
+  
+.center {
+  width: 350px;
+  min-height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+.promo-1 {
+  float: left;
+  width: 160px;
+  min-height: 50px;
+  margin-right: 10px;
+  }
+
+.promo-2 {
+  float: right;
+  width: 160px;
+  min-height: 50px;
+  /*margin-right: 10px;* /
+  }
+  
+.left {
+  float: left;
+  width: 60px;
+  min-height: 100px;
+  margin-right: 10px;
+  }
+
+.main {
+  float: left;
+  width: 180px;
+  min-height: 100px;
+  margin-right: 10px;
+  }
+
+.right {
+  float: right;
+  width: 60px;
+  min-height: 100px;
+  }
+
+/*
+  Используемые цвета:
+  #34495e – мокрый асфальт
+  #c0392b – красный
+  #3498db – синий
+* /
+
+*/
